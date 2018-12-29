@@ -2,6 +2,8 @@
 .eggs/*
 dist/*
 mycodecpy.egg-info/*
+FilterFrequencies.txt
+*.dat
 
 # exclude everythin in png folder except the example files
 png/*
