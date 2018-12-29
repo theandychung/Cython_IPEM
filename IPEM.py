@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-from IPEMToolBox.AuditoryModel import mycodecpy
+import mycodecpy
 from brian import *
 from brian.hears import *
 import numpy as np
@@ -92,9 +92,9 @@ class IPEM:
 # 執行
 if __name__ == '__main__':
     
-    inInputFileName = 'filename.wav'
+    inInputFileName = 'bee2.wav'
     inInputFilePath = 'wav/'
-    inOutputFileName = 'filename.txt'
+    inOutputFileName = 'bee2.txt'
     inOutputFilePath = 'txt/'
     myIPEM = IPEM(inInputFileName, inInputFilePath, inOutputFileName, inOutputFilePath)
     myIPEM.ipem()

@@ -1,7 +1,6 @@
 .idea/*
 .eggs/*
 dist/*
-build/*
 FilterFrequencies.txt
 *.dat
 *.egg-info/*
