@@ -1,4 +1,7 @@
 .idea/*
+.eggs/*
+dist/*
+mycodecpy.egg-info/*
 
 # exclude everythin in png folder except the example files
 png/*

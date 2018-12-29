@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-import mycodecpy
+from IPEMToolBox.AuditoryModel import mycodecpy
 from brian import *
 from brian.hears import *
 import numpy as np
@@ -47,12 +47,12 @@ class IPEM:
         self.wave = wave.open(self.inputfile)
         self.inSampleFrequency = self.wave.getframerate()
 
-    # IPEM
+    # Cython_IPEM
     def ipem(self):
         self.checkInputFile()
         result = mycodecpy.callCfunc(self.inNumOfChannels, self.inFirstFreq, self.inFreqDist,
-                             self.inInputFileName, self.inInputFilePath, self.inOutputFileName,
-                             self.inOutputFilePath, self.inSampleFrequency, self.inSoundFileFormat)
+                                     self.inInputFileName, self.inInputFilePath, self.inOutputFileName,
+                                     self.inOutputFilePath, self.inSampleFrequency, self.inSoundFileFormat)
 
     # 繪圖
     def plot(self):
