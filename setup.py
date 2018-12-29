@@ -18,4 +18,4 @@ setup(
                                 "Hcmbank.c", "command.c", "filenames.c",
                                 "pario.c", "sigio.c", "IPEMAuditoryModel.c", "Audimod.c", "AudiProg.c"]),
     ]),
-) 
+)
