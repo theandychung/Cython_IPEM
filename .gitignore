@@ -1,9 +1,10 @@
 .idea/*
 .eggs/*
 dist/*
-mycodecpy.egg-info/*
+build/*
 FilterFrequencies.txt
 *.dat
+*.egg-info/*
 
 # exclude everythin in png folder except the example files
 png/*
