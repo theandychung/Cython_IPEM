@@ -5,7 +5,6 @@ dist/*
 *.pyd
 *.pyc
 
-
 mycodecpy.c
 FilterFrequencies.txt
 *.dat
