@@ -4,22 +4,23 @@ test.py
 dist/*
 *.pyd
 *.pyc
+
+
 mycodecpy.c
 FilterFrequencies.txt
 *.dat
 *.egg-info/*
 
 # exclude everythin in png folder except the example files
-png/*
-!png/.gitkeep
+Cython_IPEM/png/*
+!Cython_IPEM/png/.gitkeep
 
 # exclude everythin in txt folder except the example files
-txt/*
-!txt/.gitkeep
-!txt/bee2.txt
-!txt/bee2_autocorr.txt
+Cython_IPEM/txt/*
+!Cython_IPEM/txt/.gitkeep
+!Cython_IPEM/txt/bee2.txt
 
 # exclude everythin in wav folder except the example files
-wav/*
-!wav/.gitkeep
-!wav/bee2.wav
+Cython_IPEM/wav/*
+!Cython_IPEM/wav/.gitkeep
+!Cython_IPEM/wav/bee2.wav
