@@ -1,6 +1,10 @@
 # Cython_IPEM
+If you are using Python 2.7 64bit, you may [install](##install) right away. If you are using other version of Python, please [build](##Build) first before installing.
+
 ## Auditory Model
-Please visit [HERE](https://github.com/IPEM/IPEMToolbox) to get the latest IPEM Toolbox
+The Auditory Model is originated from the [IPEM Toolbox](https://github.com/IPEM/IPEMToolbox).
+This package can be updated by replacing the entire Auditory Model folder directly from the IPEM toolbox.
+
 ## Build
 Currently Only the following version has been built:
 - Python2.7 64bit
