@@ -1,6 +1,10 @@
+test.py
 .idea/*
 .eggs/*
 dist/*
+*.pyd
+*.pyc
+mycodecpy.c
 FilterFrequencies.txt
 *.dat
 *.egg-info/*
