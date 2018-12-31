@@ -1,4 +1,5 @@
 # Cython_IPEM
+![](https://img.shields.io/badge/python-2.7-blue.svg)
 If you are using Python 2.7 64bit, you may [install](##install) right away. If you are using other version of Python, please [build](##Build) first before installing.
 
 ## Auditory Model
