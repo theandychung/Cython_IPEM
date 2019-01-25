@@ -1,7 +1,7 @@
 # Cython_IPEM
 ![](https://img.shields.io/badge/python-2.7-blue.svg)
 
-If you are using Python 2.7 64bit, you may [install](##install) right away. If you are using other version of Python, please [build](##Build) first before installing.
+If you are using Python 2.7 64bit, you may [install](https://github.com/theandychung/Cython_IPEM#install) this package right away. If you are using other version of Python, please [build](https://github.com/theandychung/Cython_IPEM##Build) first before installing.
 
 ## Auditory Model
 The Auditory Model is originated from the [IPEM Toolbox](https://github.com/IPEM/IPEMToolbox).
